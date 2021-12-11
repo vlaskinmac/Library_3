@@ -17,8 +17,8 @@ Thumbs.db
 probe.py
 probe2.py
 index2.html
-**/books_txt/
-**/image/
+**/books_txt
+**/image
 # config  files
 auth.py
 config.py
