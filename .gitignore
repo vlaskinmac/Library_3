@@ -16,9 +16,10 @@ Thumbs.db
 .DS_Store
 probe.py
 probe2.py
-index2.html
+index.html
 **/books_txt
 **/image
+filejson.json
 # config  files
 auth.py
 config.py
