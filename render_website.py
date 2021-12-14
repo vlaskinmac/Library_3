@@ -1,7 +1,6 @@
 import json
 import os
 from jinja2 import Environment, FileSystemLoader, select_autoescape
-from livereload import Server, shell
 from more_itertools import chunked
 
 
@@ -25,8 +24,3 @@ def rebuild():
         with open(f'pages/index{number}.html', 'w', encoding="utf8") as file:
             file.write(rendered_page)
 
-
-rebuild()
-server = Server()
-server.watch('Library_3/*.html', shell('make html', cwd='Library_3'))
-server.serve(root='.')
