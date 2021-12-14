@@ -99,7 +99,6 @@
                 <li class="page-item"><a class="page-link" href="index{{current_page-1}}.html">{{current_page-1}}</a></li>
                 <li class="page-item active"><a class="page-link" href="index{{current_page}}.html">{{current_page}}</a></li>
               </ul>
-
             {% else %}
               <ul class="pagination">
                 <li class="page-item"><a class="page-link" href="index1.html">1</a></li>
@@ -114,7 +113,6 @@
                 <li class="page-item"><a class="page-link" href="index{{current_page+1}}.html">>></a></li>
                 <li class="page-item"><a class="page-link" href="index{{last_page}}.html">{{last_page}}</a></li>
               </ul>
-
               {% endif %}
           </nav>
             {% for books in books_divided %}
