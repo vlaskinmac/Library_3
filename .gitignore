@@ -18,9 +18,6 @@ probe.py
 probe2.py
 index2222.html
 index333.html
-**/books_txt
-**/image
-filejson.json
 # config  files
 auth.py
 config.py
